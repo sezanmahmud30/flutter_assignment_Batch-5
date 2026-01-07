@@ -21,7 +21,7 @@ import 'dart:io';
   }
 
 void main(){
-     double weight = 53.0;
+     double weight = 73.0;
      double height = 1.76;
 
      double bmi = calculateBMI(weight, height);
