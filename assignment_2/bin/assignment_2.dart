@@ -4,7 +4,7 @@ import 'dart:io';
     return weight / (height * height);
   }
 
-  String getBMICategory( double bmi){
+  String getBMICategory(double bmi){
 
     if(bmi < 18.5){
       return "Underweight";
@@ -21,7 +21,7 @@ import 'dart:io';
   }
 
 void main(){
-     double weight = 73.0;
+     double weight = 53.0;
      double height = 1.76;
 
      double bmi = calculateBMI(weight, height);
